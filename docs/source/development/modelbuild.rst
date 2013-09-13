@@ -25,7 +25,7 @@ This will print the final model to stdout, so to update the models in
 
   $ scripts/modelbuild services/sqs.json > botocore/data/aws/sqs.json
 
-Alternatively, there is a ``script/buildall`` that you can run with no
+Alternatively, there is a ``scripts/buildall`` that you can run with no
 arguments.  It will automatically build all of the services in the
 ``./services`` directory and place them in the appropriate location in
 ``botocore/data/aws``.  It will also copy the ``_regions.json`` and
